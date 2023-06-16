@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+main{
+    border:solid purple 8px;
+}
+figure{
+    display: flex;
+    justify-content:space-between ;
+    /* 
+    ATUA NO EIXO X
+    flex-start -> vai posicionar os nossos elementos
+    no extremo esquerdo da sua caixa no eixo x
+    
+    center -> vai posicionar ao centro da sua caixa no eixo x
+
+    flex-end -> vai posicionar os nossos elementos ao extremo direito
+    da nossa caixa no eixo x.
+    
+    space-evenly -> Ele vai dar o menor espaçamento possível entre
+    os seus elementos na sua caixa.
+
+    space-around -> Irá aplicar um espaçamento um pouco maior entre os
+    elementos dentro da sua caixa.
+
+    space-between -> Vai colocar o maior espaçamento possível entre os 
+    elementos contidos na sua caixa.
+
+    */
+    
+    align-items:center ;
+    /*
+    ATUA NO EIXO Y 
+    flex-start -> vai posicionar os nossos elementos no extremo
+    topo da nossa caixa.
+
+
+    center -> vai posicionar ao centro da nossa caixa no eixo y
+
+    flex-end -> vai posicionar ao final (bottom) da nossa caixa no eixo y
+
+
+    
+    */
+
+    border: solid;
+    background-color: tomato;
+    height: 85vh;
+}
+img{
+    width: 21vw;
+    height: 25vh;
+}
+.churrasco{
+    margin-top: 45px;
+}
